@@ -1,0 +1,100 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project in a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies"
+    ],
+    "content-hash": "3b8b3e3c3e3c3e3c3e3c3e3c3e3c3e3c",
+    "packages": [
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "a7b17b42fa88849514a183396e1d8c1e1d8c1e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a7b17b42fa88849514a183396e1d8c1e1d8c1e1",
+                "reference": "a7b17b42fa88849514a183396e1d8c1e1d8c1e1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "doctrine/inflector": "^1.4 || ^2.0",
+                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.9 || ^7.5.20 || ^8.5.14 || ^9.5.10",
+                "zendframework/zend-serializer": "~2.2.7 || ~2.3.0",
+                "yoast/phpunit-polyfills": "^1.0"
+            },
+            "suggest": {
+                "ext-curl": "Provides CRLF support for email messages",
+                "ext-imap": "Provides IMAP support for mailbox parsing",
+                "ext-mbstring": "Enabled for efficient string handling",
+                "ext-openssl": "Required for secure email sending",
+                "hayageek/oauth2-yahoo": "Provides Yahoo email support",
+                "stevenmaguire/oauth2-microsoft": "Provides Microsoft 365/Outlook.com support",
+                "tebru/opossum-php": "Circuit breaker pattern for reliable email sending"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "support": {
+                "issues": "https://github.com/PHPMailer/PHPMailer/issues",
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Synchro",
+                    "type": "custom"
+                }
+            ],
+            "time": "2022-12-10T15:02:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
